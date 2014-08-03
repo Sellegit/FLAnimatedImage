@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3061F511198DB5E900A397E5 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3061F512198DB5E900A397E5 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				3061F515198DB69800A397E5 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3061F4E6198DB58C00A397E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061F4E5198DB58C00A397E5 /* Foundation.framework */; };
+		3061F4F4198DB58C00A397E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061F4F3198DB58C00A397E5 /* XCTest.framework */; };
+		3061F4F5198DB58C00A397E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061F4E5198DB58C00A397E5 /* Foundation.framework */; };
+		3061F4F7198DB58C00A397E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061F4F6198DB58C00A397E5 /* UIKit.framework */; };
+		3061F4FA198DB58C00A397E5 /* libFLAnimatedImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061F4E2198DB58C00A397E5 /* libFLAnimatedImage.a */; };
+		3061F50F198DB5BC00A397E5 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061F50C198DB5BC00A397E5 /* FLAnimatedImage.m */; };
+		3061F510198DB5BC00A397E5 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061F50E198DB5BC00A397E5 /* FLAnimatedImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3061F4F8198DB58C00A397E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3061F4DA198DB58C00A397E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3061F4E1198DB58C00A397E5;
+			remoteInfo = FLAnimatedImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3061F4E0198DB58C00A397E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3061F4E2198DB58C00A397E5 /* libFLAnimatedImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLAnimatedImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3061F4E5198DB58C00A397E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3061F4E9198DB58C00A397E5 /* FLAnimatedImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-Prefix.pch"; sourceTree = "<group>"; };
+		3061F4F2198DB58C00A397E5 /* FLAnimatedImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAnimatedImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3061F4F3198DB58C00A397E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3061F4F6198DB58C00A397E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3061F50B198DB5BC00A397E5 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = ../../FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		3061F50C198DB5BC00A397E5 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = ../../FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		3061F50D198DB5BC00A397E5 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = ../../FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		3061F50E198DB5BC00A397E5 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = ../../FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3061F4DF198DB58C00A397E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3061F4E6198DB58C00A397E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3061F4EF198DB58C00A397E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3061F4F4198DB58C00A397E5 /* XCTest.framework in Frameworks */,
+				3061F4F7198DB58C00A397E5 /* UIKit.framework in Frameworks */,
+				3061F4FA198DB58C00A397E5 /* libFLAnimatedImage.a in Frameworks */,
+				3061F4F5198DB58C00A397E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3061F4D9198DB58C00A397E5 = {
+			isa = PBXGroup;
+			children = (
+				3061F4E7198DB58C00A397E5 /* FLAnimatedImage */,
+				3061F4E4198DB58C00A397E5 /* Frameworks */,
+				3061F4E3198DB58C00A397E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3061F4E3198DB58C00A397E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3061F4E2198DB58C00A397E5 /* libFLAnimatedImage.a */,
+				3061F4F2198DB58C00A397E5 /* FLAnimatedImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3061F4E4198DB58C00A397E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3061F4E5198DB58C00A397E5 /* Foundation.framework */,
+				3061F4F3198DB58C00A397E5 /* XCTest.framework */,
+				3061F4F6198DB58C00A397E5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3061F4E7198DB58C00A397E5 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				3061F50B198DB5BC00A397E5 /* FLAnimatedImage.h */,
+				3061F50C198DB5BC00A397E5 /* FLAnimatedImage.m */,
+				3061F50D198DB5BC00A397E5 /* FLAnimatedImageView.h */,
+				3061F50E198DB5BC00A397E5 /* FLAnimatedImageView.m */,
+				3061F4E8198DB58C00A397E5 /* Supporting Files */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		3061F4E8198DB58C00A397E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3061F4E9198DB58C00A397E5 /* FLAnimatedImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3061F4E1198DB58C00A397E5 /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3061F505198DB58C00A397E5 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				3061F4DE198DB58C00A397E5 /* Sources */,
+				3061F4DF198DB58C00A397E5 /* Frameworks */,
+				3061F4E0198DB58C00A397E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = 3061F4E2198DB58C00A397E5 /* libFLAnimatedImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3061F4F1198DB58C00A397E5 /* FLAnimatedImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3061F508198DB58C00A397E5 /* Build configuration list for PBXNativeTarget "FLAnimatedImageTests" */;
+			buildPhases = (
+				3061F4EE198DB58C00A397E5 /* Sources */,
+				3061F4EF198DB58C00A397E5 /* Frameworks */,
+				3061F4F0198DB58C00A397E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3061F4F9198DB58C00A397E5 /* PBXTargetDependency */,
+			);
+			name = FLAnimatedImageTests;
+			productName = FLAnimatedImageTests;
+			productReference = 3061F4F2198DB58C00A397E5 /* FLAnimatedImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3061F4DA198DB58C00A397E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sellegit;
+			};
+			buildConfigurationList = 3061F4DD198DB58C00A397E5 /* Build configuration list for PBXProject "FLAnimatedImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3061F4D9198DB58C00A397E5;
+			productRefGroup = 3061F4E3198DB58C00A397E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3061F4E1198DB58C00A397E5 /* FLAnimatedImage */,
+				3061F4F1198DB58C00A397E5 /* FLAnimatedImageTests */,
+				3061F511198DB5E900A397E5 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3061F4F0198DB58C00A397E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3061F515198DB69800A397E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target FLAnimatedImage ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target FLAnimatedImage -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3061F4DE198DB58C00A397E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3061F50F198DB5BC00A397E5 /* FLAnimatedImage.m in Sources */,
+				3061F510198DB5BC00A397E5 /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3061F4EE198DB58C00A397E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3061F4F9198DB58C00A397E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3061F4E1198DB58C00A397E5 /* FLAnimatedImage */;
+			targetProxy = 3061F4F8198DB58C00A397E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3061F503198DB58C00A397E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3061F504198DB58C00A397E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3061F506198DB58C00A397E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FLAnimatedImage.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLAnimatedImage/FLAnimatedImage-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3061F507198DB58C00A397E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FLAnimatedImage.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLAnimatedImage/FLAnimatedImage-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3061F509198DB58C00A397E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLAnimatedImage/FLAnimatedImage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FLAnimatedImageTests/FLAnimatedImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3061F50A198DB58C00A397E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLAnimatedImage/FLAnimatedImage-Prefix.pch";
+				INFOPLIST_FILE = "FLAnimatedImageTests/FLAnimatedImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		3061F513198DB5E900A397E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3061F514198DB5E900A397E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3061F4DD198DB58C00A397E5 /* Build configuration list for PBXProject "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061F503198DB58C00A397E5 /* Debug */,
+				3061F504198DB58C00A397E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3061F505198DB58C00A397E5 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061F506198DB58C00A397E5 /* Debug */,
+				3061F507198DB58C00A397E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3061F508198DB58C00A397E5 /* Build configuration list for PBXNativeTarget "FLAnimatedImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061F509198DB58C00A397E5 /* Debug */,
+				3061F50A198DB58C00A397E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3061F512198DB5E900A397E5 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061F513198DB5E900A397E5 /* Debug */,
+				3061F514198DB5E900A397E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3061F4DA198DB58C00A397E5 /* Project object */;
+}
